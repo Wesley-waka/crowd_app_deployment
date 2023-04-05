@@ -1,4 +1,4 @@
-class UserCampaignSerializer < ActiveModel::Serializers
+class UserCampaignSerializer < ActiveModel::Serializer
   attributes :id, :username, :email 
 
   has_many :reviews

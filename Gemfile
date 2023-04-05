@@ -6,7 +6,7 @@ ruby "2.7.4"
 #seeds dummy data to the tables
 gem 'faker', '~> 2.20'
 
-# gem 'active_model_serializers'
+gem 'active_model_serializers'
 
 
 # Use ActiveModel has_secure_password
